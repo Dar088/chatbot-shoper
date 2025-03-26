@@ -2,6 +2,8 @@ import openai
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
+app.config['JSON_AS_ASCII'] = False  # Dodaj tę linię, by wymusić UTF-8
+
 
 # Klucz API OpenAI (należy go przechowywać w bezpieczny sposób)
 OPENAI_API_KEY = "your-openai-api-key"
