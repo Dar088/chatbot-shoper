@@ -6,7 +6,7 @@ app.config['JSON_AS_ASCII'] = False  # Dodaj tę linię, by wymusić UTF-8
 
 
 # Klucz API OpenAI (należy go przechowywać w bezpieczny sposób)
-OPENAI_API_KEY = "your-openai-api-key"
+OPENAI_API_KEY = "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"
 
 def get_chatbot_response(user_input):
     faq_knowledge = """
